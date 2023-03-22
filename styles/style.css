@@ -17,20 +17,26 @@ ul {
 /* header */
 .header {
   display: flex;
-  padding: 0 5em;
+  padding: 1em 10em;
   background-color: #1F2937;
   color: white;
 }
 
+.logo {
+  margin-right: auto;
+  font-weight: bold;
+}
+
 a {
   text-decoration: none;
-  color: white;
+  color: #E5E7EB;
+  padding: 0 1em;
 }
 
 /* blurb */
 .blurb {
   display: flex;
-  padding: 0 5em;
+  padding: 0 10em;
   background-color: #1F2937;
   color: white;
 }
@@ -54,7 +60,7 @@ button {
 /* list */
 .list {
   display: flex;
-  padding: 0 5em;
+  padding: 0 10em;
 }
 
 .listHeader {
@@ -66,7 +72,7 @@ button {
 /* quote */
 .quote {
   display: flex;
-  padding: 0 5em;
+  padding: 0 10em;
   background-color: #E5E7EB;
 }
 
@@ -79,7 +85,7 @@ button {
 /* signup */
 .signup {
   display: flex;
-  padding: 0 5em;
+  padding: 0 10em;
 }
 
 .contentSignupContainer {
@@ -89,5 +95,5 @@ button {
 /* footer */
 .footer {
   display: flex;
-  padding: 0 5em;
+  padding: 0 10em;
 }
