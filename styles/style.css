@@ -8,16 +8,22 @@ body {
   flex-direction: column;
 }
 
-ul {
+ul, p, h2, button {
   list-style-type: none;
+  border: none;
   margin: 0;
   padding: 0;
+}
+
+button {
+  border-radius: .5em;
+  padding: .5em 2em;
 }
 
 /* header */
 .header {
   display: flex;
-  padding: 1em 10em;
+  padding: 1em 15em;
   background-color: #1F2937;
   color: white;
 }
@@ -36,9 +42,28 @@ a {
 /* blurb */
 .blurb {
   display: flex;
-  padding: 0 10em;
+  gap: 3em;
+  padding: 5em 15em;
   background-color: #1F2937;
   color: white;
+}
+
+.blurb > div {
+  flex: 1;
+}
+
+.contentBlurb {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5em;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkGrey;
 }
 
 .blurbHeader {
@@ -60,7 +85,7 @@ button {
 /* list */
 .list {
   display: flex;
-  padding: 0 10em;
+  padding: 0 15em;
 }
 
 .listHeader {
@@ -72,7 +97,7 @@ button {
 /* quote */
 .quote {
   display: flex;
-  padding: 0 10em;
+  padding: 0 15em;
   background-color: #E5E7EB;
 }
 
@@ -85,7 +110,7 @@ button {
 /* signup */
 .signup {
   display: flex;
-  padding: 0 10em;
+  padding: 0 15em;
 }
 
 .contentSignupContainer {
@@ -95,5 +120,5 @@ button {
 /* footer */
 .footer {
   display: flex;
-  padding: 0 10em;
+  padding: 0 15em;
 }
