@@ -24,6 +24,7 @@ button {
 /* header */
 .header {
   display: flex;
+  justify-content: center;
   padding: 1em 15em;
   background-color: #1F2937;
   color: white;
@@ -43,6 +44,8 @@ a {
 /* blurb */
 .blurb {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 3em;
   padding: 5em 15em;
   background-color: #1F2937;
@@ -101,6 +104,7 @@ button {
 
 .listContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2em;
 }
@@ -130,14 +134,22 @@ button {
 /* quote */
 .quote {
   display: flex;
-  padding: 0 15em;
+  flex-direction: column;
+  gap: 1em;
+  padding: 5em 15em;
   background-color: #E5E7EB;
 }
 
 .quoteBody {
   font-size: 36px;
   font-style: italic;
-  color: #1F2937;
+  font-weight: 100;
+  color: dimgrey;
+}
+
+.quoteAuthor {
+  margin-left: auto;
+  font-weight: Bold;
 }
 
 /* signup */
