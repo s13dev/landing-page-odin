@@ -6,6 +6,7 @@ body {
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  background-color: #1F2937;
 }
 
 ul, p, h2, button {
@@ -86,6 +87,7 @@ button {
 .list {
   display: flex;
   padding: 0 15em;
+  background-color: white;
 }
 
 .listHeader {
@@ -111,6 +113,7 @@ button {
 .signup {
   display: flex;
   padding: 0 15em;
+  background-color: white;
 }
 
 .contentSignupContainer {
@@ -121,4 +124,6 @@ button {
 .footer {
   display: flex;
   padding: 0 15em;
+  background-color: #1F2937;
+  color: white;
 }
