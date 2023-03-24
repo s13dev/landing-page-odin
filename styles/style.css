@@ -166,7 +166,9 @@ button {
 /* footer */
 .footer {
   display: flex;
-  padding: 0 15em;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 15em;
   background-color: #1F2937;
   color: white;
 }
