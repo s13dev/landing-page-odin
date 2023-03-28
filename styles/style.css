@@ -19,6 +19,8 @@ ul, p, h2, button, div {
 button {
   border-radius: .5em;
   padding: .5em 2em;
+  color: white;
+  background-color: #3882F6;
 }
 
 /* header */
@@ -63,10 +65,21 @@ a {
   gap: .5em;
 }
 
-.image {
+.contentSignupContainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1.5em;
+  width: 50em;
+  padding: 2em 2em;
+  border-radius: .5em;
+  background-color: #3882F6;
+  color: white;
+}
+
+.image {
+  min-width: 20em;
+  min-height: 15em;
   background-color: darkGrey;
 }
 
@@ -81,15 +94,11 @@ a {
   color: #E5E7EB;
 }
 
-button {
-  color: white;
-  background-color: #3882F6;
-}
-
 /* list */
 .list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 2em;
   padding: 2em 15em 5em;
@@ -135,13 +144,15 @@ button {
 .quote {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1em;
   padding: 5em 15em;
   background-color: #E5E7EB;
 }
 
 .quoteBody {
-  font-size: 36px;
+  font-size: 32px;
   font-style: italic;
   font-weight: 100;
   color: dimgrey;
@@ -155,12 +166,27 @@ button {
 /* signup */
 .signup {
   display: flex;
-  padding: 0 15em;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 15em;
   background-color: white;
 }
 
 .contentSignupContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1.5em;
+  width: 50em;
+  padding: 2em 2em;
+  border-radius: .5em;
   background-color: #3882F6;
+  color: white;
+}
+
+.contentSignupContainer > button {
+  border-style: solid;
+  border-color: white;
 }
 
 /* footer */
